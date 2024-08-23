@@ -11,9 +11,18 @@ any trap, he should lose the game.</p>
 
 <p> Than to play you will do: </p>
 
+
 ### Main developed areas:
 
 <p>  -Managenent of inputs from the user;</p>
 <p>  -Display of images to create animations;</p>
 <p>  -Handling of events;</p>
 <p>  -Window management;</p>
+
+### Textures:
+
+<p> Paloma Garcia Vanrell were commissioned to do the textures of the game. Here follows her dossier:</p>
+
+### Code idea:
+
+<p></p>
