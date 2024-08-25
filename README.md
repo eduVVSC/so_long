@@ -45,14 +45,12 @@ any trap, he should lose the game.</p>
 in this case 2, then we are going to do the same thing to the walkable characters close to 2. We will do this until there's no changes left to do. After that, we will check to map
 to see if there are any of the necessary chacters that are still in the map(E or C), if so, the map is unplayable.</p>
 
-### Mlx usage:
-<p></p>
+### MiniLibx usage:
+<p> The minilibx is the library that we have available to use to make the part usable of the game, the movements and the screen. </p>
 
 ##### Window display
-
+<p> The </p>
 
 ##### Event Handling
-
-
-<p></p>
+<p> </p>
 
