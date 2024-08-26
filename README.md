@@ -45,12 +45,15 @@ any trap, he should lose the game.</p>
 in this case 2, then we are going to do the same thing to the walkable characters close to 2. We will do this until there's no changes left to do. After that, we will check to map
 to see if there are any of the necessary chacters that are still in the map(E or C), if so, the map is unplayable.</p>
 
+### Character Animation:
+<p> The animation was one of the longest parts of the program, just because I had create a lot of functions just to make it work. The explaining about how it works is quite simple, whenever you press one of the keys that make the character walk(W,A,S,D) and the direction where you pressed to has a walkable space, the game is going to display 4 sequencial images that combined will make the walking animation.</p>
+
 ### MiniLibx usage:
 <p> The minilibx is the library that we have available to use to make the part usable of the game, the movements and the screen. </p>
 
 ##### Window display
-<p> The </p>
+<p> To make the window display I used the functions that we had available and then, I used the map position to display every image that is on that window, so each character in the map is equivalent to a 32x32 image that you see in the window.</p>
 
 ##### Event Handling
-<p> </p>
+<p> The event handling is based on, while in an infinit loop, that happens until the game end, the program is getting the code generated whenever the user presses a key, and based on this code, it will perform an action. </p>
 
