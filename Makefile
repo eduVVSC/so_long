@@ -1,7 +1,5 @@
 NAME = so_long
 
-NAME_BONUS = so_long_bonus
-
 CC = cc
 
 CFLAGS = -Wall -Wextra -Werror
@@ -33,7 +31,6 @@ OBJ_BONUS = $(SRCS_BONUS:%.c=%.o)
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	@make -C minilibx-linux/
 	@make -C srcs/libs/libft
 	@make -C srcs/libs/ft_printf
 	@make -C srcs/libs/gnl
@@ -44,7 +41,6 @@ $(NAME): $(OBJ)
 	@$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	@make clean -C minilibx-linux/
 	@make clean -C srcs/libs/ft_printf
 	@make clean -C srcs/libs/libft
 	@make clean -C srcs/libs/gnl
@@ -53,18 +49,14 @@ clean:
 	@echo "->Objects cleaned<-"
 
 fclean: clean
-	@make fclean -C srcs/libs/ft_printf
-	@make fclean -C srcs/libs/libft
-	@make fclean -C srcs/libs/gnl
-	@rm -f $(NAME) $(NAME_BONUS)
+	@rm -f $(NAME)
 	@echo "->$(NAME) erase<-"
 
 bonus: fclean $(OBJ_BONUS)
-	@make -C minilibx-linux/
 	@make -C srcs/libs/libft
 	@make -C srcs/libs/ft_printf
 	@make -C srcs/libs/gnl
-	@$(CC) $(OBJ_BONUS) $(LIBS) $(MLX_FLAGS) -o $(NAME_BONUS)
+	@$(CC) $(OBJ_BONUS) $(LIBS) $(MLX_FLAGS) -o $(NAME)
 	@echo "-->Bonus created<--"
 
 re: fclean all
