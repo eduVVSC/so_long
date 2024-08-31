@@ -1,4 +1,5 @@
 <h1 align="center"> So_long Project </h1>
+<img SRC=""game.gif>
 
 <p> This is a project where I needed to do a 2D game. The game needed to have a top-down view. In order to win, the player should collect all the itens in the map, and run to the exit, without getting into any traps, if the player stops at
 any trap, he should lose the game.</p>
