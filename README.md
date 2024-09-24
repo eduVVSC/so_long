@@ -32,11 +32,11 @@ Than to play you will do:
 
 ## Game development:
 
-### Textures:
+### 🏙️ Textures:
 <p> Paloma Garcia Vanrell were commissioned to do the textures of the game. Here follows her dossier:</p>
 
 
-### Map managment:
+### 🗺️ Map managment:
 <p> The map management is consisted in the checker of the map and then, see if its playable or not</p>
 
 
@@ -52,7 +52,7 @@ Than to play you will do:
 in this case 2, then we are going to do the same thing to the walkable characters close to 2. We will do this until there's no changes left to do. After that, we will check to map
 to see if there are any of the necessary chacters that are still in the map(E or C), if so, the map is unplayable.</p>
 
-### Character Animation:
+### 🦍 Character Animation:
 <p> The animation was one of the longest parts of the program, just because I had create a lot of functions just to make it work. The explaining about how it works is quite simple, whenever you press one of the keys that make the character walk(W,A,S,D) and the direction where you pressed to has a walkable space, the game is going to display 4 sequencial images that combined will make the walking animation.</p>
 
 ### MiniLibx usage:
