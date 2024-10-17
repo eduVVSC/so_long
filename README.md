@@ -33,7 +33,7 @@ Than to play you will do:
 ## Game development:
 
 ### 🏙️ Textures:
-<p> Paloma Garcia Vanrell were commissioned to do the textures of the game. Here follows her dossier:</p>
+<p> Paloma Garcia Vanrell, student at Lusofona Porto, were commissioned to do the textures of the game.</p>
 
 
 ### 🗺️ Map managment:
